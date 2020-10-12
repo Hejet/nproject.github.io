@@ -1,0 +1,46 @@
+@import "./null";
+@import "./basic";
+@import "./header";
+@import "./perem";
+@import "./calc";
+
+.cities {
+	text-align: center;
+}
+#cities {
+	width: 100px;
+}
+.cities-text {
+	color: #ffe81d;
+	font-size: 20px;
+}
+.form-row {
+	margin: 10px;
+	display: flex;
+	flex: column nowrap;
+	justify-content: center;
+}
+input {
+	width: 200px;
+}
+#avatar__wrapper {
+	img {
+		width: 300px;
+	}
+}
+#avatar {
+	margin: 15px;
+	border: orange 5px solid;
+	border-radius: 35px;
+	box-shadow: 0 0 50px rgba($color: #000000, $alpha: 0.5);
+}
+.default-input {
+	border: rgb(31, 17, 233) 5px solid;
+	padding: 5px;
+}
+.error-input {
+	border-color: red;
+	border-radius: 25px;
+	text-align: center;
+	box-shadow: 0 0 50px rgba($color: #000000, $alpha: 0.5);
+}

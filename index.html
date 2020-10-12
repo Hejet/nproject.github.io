@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=, initial-scale=1.0" /> -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="import1" href="calc.html" />
+    <title>Новая вкладка</title>
+  </head>
+  <body>
+    <!-- !Хедер -->
+    <header>
+      <div class="header">
+        <div class="icon-logo">
+          <img src="./img/logo-klik.svg" alt="" class="" />
+        </div>
+        <div class="container-icon">
+          <div class="icon-params">
+            <img src="./img/icon-klik_dobra.svg" alt="" class="icon-setting" />
+            <p>"Клик Добра"</p>
+          </div>
+          <div class="icon-params">
+            <img
+              src="./img/header_delivery address.svg"
+              alt=""
+              class="icon-setting"
+            />
+            <p>address</p>
+          </div>
+          <div class="icon-params">
+            <img
+              src="./img/header_exact position.svg"
+              alt=""
+              class="icon-setting"
+            />
+            <p>Доставка</p>
+          </div>
+          <div class="icon-params">
+            <img src="./img/icon-arrow.svg" alt="" class="icon-setting" />
+            <p>arrow</p>
+          </div>
+          <div class="icon-params">
+            <img src="./img/icon-enter-ava.svg" alt="" class="icon-setting" />
+            <p>User</p>
+          </div>
+          <div class="icon-params">
+            <img src="./img/icon-recipe.svg" alt="" class="icon-setting" />
+            <p>reciept</p>
+          </div>
+          <div class="icon-params">
+            <img src="./img/icon-search.svg" alt="" class="icon-setting" />
+            <p>search</p>
+          </div>
+          <div class="icon-params">
+            <img src="./img/icon_basket.svg" alt="" class="icon-setting" />
+            <p>basket</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- ! Логотипы магазинов -->
+      <div class="container-wrapper">
+        <h3>Логотипы магазинов:</h3>
+
+        <div class="logo-market">
+          <img src="./img/form_silpo.svg" alt="" class="logo__container" />
+          <img src="./img/form_ashan.svg" class="img__auchan logo__container" />
+          <img class="img__metro logo__container" src="./img/form_metro.svg" />
+          <img src="./img/form_novus.svg" class="logo__container" />
+          <img src="./img/form_eko_market.svg" class="logo__container eko" />
+          <img
+            src="./img/form_mega_market.svg"
+            class="logo__container img__megamarket"
+          />
+          <img src="./img/form_furshet.svg" class="logo__container" />
+        </div>
+        <br />
+        <!-- Список городов -->
+        <div class="cities">
+          <span class="cities-text"> Выберите город: </span>
+          <select id="cities">
+            <option>Днепр</option>
+            <option selected="selected">Киев</option>
+            <option>Харьков</option>
+            <option>Львов</option>
+          </select>
+        </div>
+      </div>
+      <!-- ! Слушаем события -->
+      <div class="container-wrapper">
+        <h3>#_14_Lesson: addEventListener</h3>
+        <div class="container-inner">
+          <ul class="form-container-wrapper">
+            <li class="form-row">
+              <input value="Владимир" type="" id="first-name" />
+            </li>
+            <li class="form-row">
+              <input value="Иванов" type="" id="last-name" />
+            </li>
+            <li class="form-row">
+              <input value="Киев" type="" id="address" />
+            </li>
+            <li class="form-row">
+              <button id="button">Send</button>
+            </li>
+          </ul>
+        </div>
+        <div id="avatar__wrapper">
+          <img
+            id="avatar"
+            src="https://cdn.fishki.net/upload/post/201503/18/1469065/6320710-r3l8t8d-650-480-934x.jpg"
+            alt="Аватар"
+          />
+        </div>
+      </div>
+      <!-- ! "Это калькулятор" -->
+      <div id="calc">
+        <div class="container-wrapper">
+          <h3>#_15_Lesson: addEventListener-CALCULATOR</h3>
+          <div class="jskmb-calculator">
+            <div class="operations-block">
+              <button id="buttonPlus">+</button>
+              <button id="buttonMinus">-</button>
+              <button id="buttonMultyply">*</button>
+              <button id="buttonDevide">/</button>
+            </div>
+            <div class="separator">
+              <hr />
+            </div>
+            <div class="inputs-block">
+              <div class="input-block">
+                <label for="">Number 1 </label>
+                <input type="number" name="" id="number1" />
+              </div>
+              <div class="input-block">
+                <label for="">Number 2 </label>
+                <input type="number" name="" id="number2" />
+              </div>
+              <div class="number-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Тут скрипты -->
+    <!-- <script src="js/script_1.js"></script>
+    <script src="js/script_2.js"></script> -->
+
+    <script src="/js/script_3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+header {
+	width: 1170px;
+	margin: 40px auto 0;
+}
+.header {
+	width: 1170px;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+.icon-logo {
+	display: flex;
+	background-color: #dadada;
+	align-items: center;
+	img {
+		width: 150px;
+	}
+}
+.img__metro {
+	background-color: blue;
+}
+.img__auchan {
+	background-color: #fff;
+}
+.img__megamarket {
+	background-color: #fff;
+}
+.container-icon {
+	display: flex;
+	flex: row nowrap;
+	widows: 1000px;
+	background-color: rgb(131, 49, 207);
+	color: #000;
+}
+.icon-params {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	p {
+		padding: 5px;
+		color: #fff;
+	}
+}
+img {
+	&.icon-setting {
+		width: 20px;
+		margin: 5px;
+	}
+}
+.logo__container {
+	width: 200px;
+	height: 50px;
+	border: #000 1px solid;
+	margin: 5px;
+	//padding: 10px;
+}
+.logo-market {
+	padding: 20px;
+	margin: 20px 190px;
+	border: 2px #000 solid;
+	box-shadow: 0 0 20px #000;
+	img:nth-child(2n) {
+		padding: 10px;
+	}
+}
