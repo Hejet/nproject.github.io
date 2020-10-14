@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <!-- <meta name="viewport" content="width=, initial-scale=1.0" /> -->
 
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <link rel="import1" href="calc.html" />
-    <title>Новая вкладка</title>
+		<link rel="stylesheet" href="./css/style.css" />
+    <title>Учим js</title>
   </head>
   <body>
     <!-- !Хедер -->
@@ -16,48 +14,48 @@
         <div class="icon-logo">
           <img src="./img/logo-klik.svg" alt="" class="" />
         </div>
-        <div class="container-icon">
-          <div class="icon-params">
-            <img src="./img/icon-klik_dobra.svg" alt="" class="icon-setting" />
-            <p>"Клик Добра"</p>
-          </div>
-          <div class="icon-params">
+        <ul class="container-icon">
+          <li class="icon-params">
+						<img src="./img/icon-klik_dobra.svg" alt="" class="icon-setting" />
+            <a href="">"Клик Добра"</a>
+          </li>
+          <li class="icon-params">
             <img
               src="./img/header_delivery address.svg"
               alt=""
               class="icon-setting"
             />
-            <p>address</p>
-          </div>
-          <div class="icon-params">
+            <a href="">address</a>
+          </li>
+          <li class="icon-params">
             <img
               src="./img/header_exact position.svg"
               alt=""
               class="icon-setting"
             />
-            <p>Доставка</p>
-          </div>
-          <div class="icon-params">
+            <a href="">Доставка</a>
+          </li>
+          <li class="icon-params">
             <img src="./img/icon-arrow.svg" alt="" class="icon-setting" />
-            <p>arrow</p>
-          </div>
-          <div class="icon-params">
+            <a href="">arrow</a>
+          </li>
+          <li class="icon-params">
             <img src="./img/icon-enter-ava.svg" alt="" class="icon-setting" />
-            <p>User</p>
-          </div>
-          <div class="icon-params">
+            <a href="">User</a>
+          </li>
+          <li class="icon-params">
             <img src="./img/icon-recipe.svg" alt="" class="icon-setting" />
-            <p>reciept</p>
-          </div>
-          <div class="icon-params">
+            <a href="">reciept</a>
+          </li>
+          <li class="icon-params">
             <img src="./img/icon-search.svg" alt="" class="icon-setting" />
-            <p>search</p>
-          </div>
-          <div class="icon-params">
+            <a href="">search</a>
+          </li>
+          <li class="icon-params">
             <img src="./img/icon_basket.svg" alt="" class="icon-setting" />
-            <p>basket</p>
-          </div>
-        </div>
+            <a href="">basket</a>
+          </li>
+        </ul>
       </div>
     </header>
     <div class="container">
@@ -114,9 +112,21 @@
             src="https://cdn.fishki.net/upload/post/201503/18/1469065/6320710-r3l8t8d-650-480-934x.jpg"
             alt="Аватар"
           />
-          <div class="button-img-wrapper">
-            <button id="button-img-sobaka">Нажми на меня нежно</button>
-          </div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-vanja">Ваня</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-mama">MAMA</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-papa">ПАПА</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-grmAnja">БАБУШКА АНЯ</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-cat">КОТ</button>
+					</div>
         </div>
       </div>
       <!-- ! "Это калькулятор" -->
@@ -125,10 +135,10 @@
           <h3>#_15_Lesson: addEventListener-CALCULATOR</h3>
           <div class="jskmb-calculator">
             <div class="operations-block">
-              <button id="buttonPlus">+</button>
-              <button id="buttonMinus">-</button>
-              <button id="buttonMultyply">*</button>
-              <button id="buttonDevide">/</button>
+              <button id="buttonPlus" class="operation-button">+</button>
+              <button id="buttonMinus" class="operation-button">-</button>
+              <button id="buttonMultyply" class="operation-button">*</button>
+              <button id="buttonDevide" class="operation-button">/</button>
             </div>
             <div class="separator">
               <hr />
@@ -150,8 +160,8 @@
     </div>
 
     <!-- ? Тут скрипты -->
-    <!-- <script src="js/script_1.js"></script>
-    <script src="js/script_2.js"></script> -->
+    <!-- <script src="js/script_1.js"></script> -->
+    <script src="js/script_2.js"></script>
 
     <script src="./js/script_3.js"></script>
   </body>

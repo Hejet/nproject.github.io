@@ -14,6 +14,7 @@ header {
 	align-items: center;
 	img {
 		width: 150px;
+		margin-left: 35px;
 	}
 }
 .img__metro {
@@ -40,6 +41,12 @@ header {
 	p {
 		padding: 5px;
 		color: #fff;
+	}
+}
+li {
+	a {
+		color:white;
+		text-decoration: none;
 	}
 }
 img {

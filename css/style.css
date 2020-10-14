@@ -207,6 +207,7 @@ header {
 
 .icon-logo img {
   width: 150px;
+  margin-left: 35px;
 }
 
 .img__metro {
@@ -249,6 +250,11 @@ header {
 .icon-params p {
   padding: 5px;
   color: #fff;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
 
 img.icon-setting {
@@ -303,6 +309,40 @@ img.icon-setting {
   padding: 5px;
 }
 
+.button {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 20px;
+  top: 0;
+  position: relative;
+}
+
+.button_1 {
+  color: #fff;
+  background-color: #5e5373;
+  -webkit-box-shadow: 0 5px 0px #3c354a;
+          box-shadow: 0 5px 0px #3c354a;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.button_1:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0px #3c354a;
+          box-shadow: 0 3px 0px #3c354a;
+  background-color: #18b5a4;
+}
+
+.container_button {
+  text-align: center;
+  height: 50px;
+}
+
 .cities {
   text-align: center;
 }
@@ -312,7 +352,7 @@ img.icon-setting {
 }
 
 .cities-text {
-  color: #ffe81d;
+  color: #000;
   font-size: 20px;
 }
 
@@ -331,6 +371,18 @@ img.icon-setting {
 
 input {
   width: 200px;
+}
+
+#avatar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #avatar__wrapper img {

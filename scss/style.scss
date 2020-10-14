@@ -3,6 +3,7 @@
 @import "./header";
 @import "./perem";
 @import "./calc";
+@import "./animation";
 
 .cities {
 	text-align: center;
@@ -11,7 +12,7 @@
 	width: 100px;
 }
 .cities-text {
-	color: #ffe81d;
+	color: #000;
 	font-size: 20px;
 }
 .form-row {
@@ -24,6 +25,9 @@ input {
 	width: 200px;
 }
 #avatar__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	img {
 		width: 300px;
 	}
