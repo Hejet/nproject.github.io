@@ -10,15 +10,15 @@ header {
 }
 .button-kategory {
 	margin-top: 5px;
-	width: 250px;
+	width: 200px;
 	height: 40px;
-	background-color: #d3e015;
+	background-color: #ffc107;
 	font-size: 24px;
 	font-weight: 800;
 	border: #000 2px solid;
 	&:hover {
 		background-color: rgb(98, 67, 148);
-		color:#d3e015;
+		color:#ffc107;
 		border: #18b5a4 2px solid;
 	}
 }
@@ -44,7 +44,7 @@ header {
 	display: flex;
 	flex: row nowrap;
 	widows: 1000px;
-	background-color: rgb(131, 49, 207);
+	background-color: #4c309c;
 	color: #000;
 }
 .icon-params {

@@ -197,9 +197,9 @@ header {
 
 .button-kategory {
   margin-top: 5px;
-  width: 250px;
+  width: 200px;
   height: 40px;
-  background-color: #d3e015;
+  background-color: #ffc107;
   font-size: 24px;
   font-weight: 800;
   border: #000 2px solid;
@@ -207,7 +207,7 @@ header {
 
 .button-kategory:hover {
   background-color: #624394;
-  color: #d3e015;
+  color: #ffc107;
   border: #18b5a4 2px solid;
 }
 
@@ -246,7 +246,7 @@ header {
       -ms-flex: row nowrap;
           flex: row nowrap;
   widows: 1000px;
-  background-color: #8331cf;
+  background-color: #4c309c;
   color: #000;
 }
 
@@ -299,6 +299,18 @@ img.icon-setting {
 
 .jskmb-calculator {
   width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row wrap;
+          flex: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   padding: 25px 15px;
   text-align: center;
@@ -308,18 +320,43 @@ img.icon-setting {
           box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
+.jskmb-calculator .operations-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: row;
+      -ms-flex: row wrap;
+          flex: row wrap;
+}
+
 .jskmb-calculator .operations-block button {
   width: 40px;
   height: 40px;
-  margin: 20px;
+  margin: 15px;
+  font-weight: 600;
 }
 
-.jskmb-calculator .inputs-block .input-block {
+.jskmb-calculator .operations-block button:last-child {
+  width: 80%;
+}
+
+.jskmb-calculator .operation-block-numbers {
+  width: 60%;
+}
+
+.jskmb-calculator .operations-block-oper {
+  width: 40%;
+}
+
+.inputs-block .input-block {
   display: inline-block;
   padding: 10px;
 }
 
-.jskmb-calculator .inputs-block .input-block label {
+.inputs-block .input-block label {
   display: block;
   color: #fff;
   padding: 5px;
@@ -344,6 +381,7 @@ img.icon-setting {
   -webkit-box-shadow: 0 5px 0px #3c354a;
           box-shadow: 0 5px 0px #3c354a;
   -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 

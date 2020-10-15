@@ -1,65 +1,83 @@
 // 'use strict';
 
-function alertValue(elementParameter) {
-  // console.log(elementParameter.value);
-  // console.log(elementParameter.className);
+/* Подготавливаем проект к дальнейшим урокам
+
+1) Создать HTML страницу и подключить к ней файл скрипта
+
+2) В файле скрипта создать 2 переменные (money и time), которые будут получать данные от пользователя:
+
+·      Первая будет спрашивать "Ваш бюджет на месяц?"
+
+·      Вторая "Введите дату в формате YYYY-MM-DD"
+
+3) Создать объект appData, который будет содержать такие данные:
+
+·      бюджет (передаем сюда переменную из п.2)
+
+·      данные времени - timeData (передаем сюда переменную из п.2)
+
+·      объект с обязательными расходами - expenses (смотри пункт 4)
+
+·      объект с необязательными расходами - optionalExpenses (оставляем пока пустым)
+
+·      массив данных с доп. доходом - income (оставляем пока пустым)
+
+·      свойство savings (выставляем его как false)
+
+4) Задать пользователю по 2 раза вопросы:
+
+    “Введите обязательную статью расходов в этом месяце”
+
+    “Во сколько обойдется?”
+
+    Записать ответы в объект expenses в формате: 
+
+    expenses: {
+    “ответ на первый вопрос” : “ответ на второй вопрос”
+    }
+5) Вывести на экран пользователя бюджет на 1 день (брать месяц за 30 дней, использовать alert)
+
+6) Проверить, чтобы все работало без ошибок в консоли
+
+7) Создать свой репозиторий на GitHub и поместить туда папку с первым заданием
+*/
+let money = +prompt ('Ваш бюджет на месяц?','');
+let time = prompt ('Введите дату в формате YYYY-MM-DD','');
+
+let appData = {
+	budget: money,
+	timeData: time,
+	expenses : {},
+	optionalExpenses: {},
+	income : [],
+	saving : false
 }
 
-function getEl(id) {
-  console.log('sombody get el by id');
-  var el = document.getElementById(id);
-  return el;
-}
+for ( let i = 0; i < 2; i++) {
+	let a = prompt ('Введите обязательную статью расходов',''),
+			b = +prompt ('Во сколько обойдется?','');
+	
+	if ((typeof(a) === 'string') && (typeof(a)) != null && (typeof(b)) != null && a != "" && b != "" && a.length < 10 ) {
+		console.log("done!");
+		appData.expenses[a] = b;
+	} else {
+		// if ((typeof(a) === 'string') && (typeof(a)) != null && (typeof(b)) != null && a != "" && b != "" && a.length < 10 ) {
+		// 	console.log("done!");
+		// 	appData.expenses[a] = b;
+		// 	debugger
+	}
+};
 
-var firstNameId = 'first-name';
-var firstNameEl = firstNameId;
-alertValue(firstNameEl);
+appData.moneyPerDay = appData.budget / 30;
 
-var lastNameId = 'last-name';
-var lastNameEl = getEl(lastNameId);
-alertValue(lastNameEl);
+alert("Ежедневный бюджет: " + appData.moneyPerDay);
 
-var addressId = 'address';
-var addressEl = getEl(addressId);
-alertValue(addressEl);
-
-var citiesId = 'cities';
-var citiesEl = getEl(citiesId);
-alertValue(citiesEl);
-
-var hobbiesId = 'hobbies';
-var hobbiesEl = getEl(hobbiesId);
-alertValue(hobbiesEl);
-
-var avatarWrapperId = 'avatar__wrapper';
-var avatarWrapperEl = getEl(avatarWrapperId);
-alertValue(avatarWrapperEl);
-
-var avatarId = 'avatar';
-var avatarEl = getEl(avatarId);
-alertValue(avatarEl);
-
-firstNameEl.value = 'Андрей';
-// window.alert(firstNameEl.value);
-
-// ! в разметке инспектора изменения не будет видно!!!
-lastNameEl.value = 'Петров';
-
-//  ? в разметке изменения будет видно!!!
-addressEl.setAttribute('value', 'Хер-сити');
-
-// изменяем класс тега
-// window.alert(lastNameEl.className);
-// lastNameEl.className = 'last-name default-input error-input';
-lastNameEl.title = 'Ошибочная Фамилия';
-// window.alert(lastNameEl.className);
-
-citiesEl.value = 'Минск';
-hobbiesEl.value = 'i have not interesting';
-
-avatarWrapperEl.innerHTML = '<ul id="list"><li>1</li><li>2</li></ul>';
-
-// var numberListId = 'list';
-var numberList = document.getElementById('list');
-
-window.alert(numberList.innerHTML);
+if (appData.moneyPerDay < 100){
+	console.log("Минимальный уровень достатка");
+} else if(appData.moneyPerDay > 2000){
+	console.log("Средний уровень достатка");
+} else if (appData.moneyPerDay > 2000 )	{
+	console.log("Высокий уровень достатка");
+} else {
+	console.log("Ошибка!!!")
+};
