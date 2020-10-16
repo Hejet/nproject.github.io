@@ -1,8 +1,27 @@
 // 'use strict';
+// ! создание массява данных получнных от пользователя
+// const answers = [];
 
-/* Подготавливаем проект к дальнейшим урокам
+// answers[0] = prompt('Как ваша фамилия?','');
+// answers[1] = prompt('Как ваше Имя?','');
+// answers[2] = prompt('Сколько Вам лет','');
 
-1) Создать HTML страницу и подключить к ней файл скрипта
+// document.write(answers);
+
+//! ИНтерполяция, используется для склеивания строковых переменных, используя обратные кавычки
+ 
+// const category = 'toys';
+
+// console.log(`https://someurl.com/${category}/5`);
+
+// const user = "Ivan";
+
+// alert(`Привет, ${user}`);
+
+
+// ! Подготавливаем проект к дальнейшим урокам
+
+/* 1) Создать HTML страницу и подключить к ней файл скрипта
 
 2) В файле скрипта создать 2 переменные (money и time), которые будут получать данные от пользователя:
 
@@ -61,10 +80,7 @@ for ( let i = 0; i < 2; i++) {
 		console.log("done!");
 		appData.expenses[a] = b;
 	} else {
-		// if ((typeof(a) === 'string') && (typeof(a)) != null && (typeof(b)) != null && a != "" && b != "" && a.length < 10 ) {
-		// 	console.log("done!");
-		// 	appData.expenses[a] = b;
-		// 	debugger
+
 	}
 };
 
