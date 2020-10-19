@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "./base/null";
 @import "./base/basic";
 @import "./block/header";
@@ -5,6 +6,15 @@
 @import "./block/calc";
 @import "./block/animation";
 @import "./block/slider";
+=======
+@import "./null";
+@import "./basic";
+@import "./header";
+@import "./perem";
+@import "./calc";
+@import "./animation";
+@import "./learn_style";
+>>>>>>> 454617e4145969aca65bbd5d7c67477b6c9451e3
 
 .cities {
 	text-align: center;

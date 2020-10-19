@@ -381,7 +381,6 @@ img.icon-setting {
   -webkit-box-shadow: 0 5px 0px #3c354a;
           box-shadow: 0 5px 0px #3c354a;
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -397,6 +396,7 @@ img.icon-setting {
   height: 50px;
 }
 
+<<<<<<< HEAD
 .itk-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -412,6 +412,39 @@ img.icon-setting {
 .img-slider {
   width: 350px;
   height: 200px;
+=======
+.section-hot li,
+.section-news li {
+  padding: 10px;
+}
+
+.section-hot li:hover,
+.section-news li:hover {
+  background-color: aqua;
+}
+
+.section-hot li:hover a,
+.section-news li:hover a {
+  color: #fff;
+}
+
+.hot-header {
+  background-color: aqua;
+}
+
+.realty-header {
+  background-color: cadetblue;
+}
+
+.section-news h2 {
+  margin: 10px;
+  color: white;
+  padding: 10px;
+}
+
+.section-news li a {
+  color: #000;
+>>>>>>> 454617e4145969aca65bbd5d7c67477b6c9451e3
 }
 
 .cities {
