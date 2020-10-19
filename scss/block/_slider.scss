@@ -5,6 +5,13 @@
 	width: 65%;
 	margin: 0 auto;
 	text-align: center;
+	.slide-img{
+		width: 480px;
+		height: 280px;
+		border-radius:15px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.5);
+		border: #37ca19 solid 5px;
+	};
 	button {
 		outline: none;
 		width: 100px;
@@ -26,13 +33,14 @@
 		:focus{
 			outline:none;
 		}
+		&:disabled {
+			color:rgb(0, 0, 0);
+			font-weight: 800;
+			background-color: rgb(247, 0, 0);
+			box-shadow: 0 0 15px rgba(0,0,0,0.5);
+			border-radius: 15px;
+			transition-duration: 0.3s;
+		}
 	}
 
-}
-.img-slider{
-	width: 480px;
-	height: 280px;
-	border-radius:15px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.5);
-	border: #37ca19 solid 5px;
 }

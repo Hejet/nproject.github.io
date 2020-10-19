@@ -428,6 +428,15 @@ img.icon-setting {
   text-align: center;
 }
 
+.itk-slider .slide-img {
+  width: 480px;
+  height: 280px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border: #37ca19 solid 5px;
+}
+
 .itk-slider button {
   outline: none;
   width: 100px;
@@ -456,13 +465,15 @@ img.icon-setting {
   outline: none;
 }
 
-.img-slider {
-  width: 480px;
-  height: 280px;
-  border-radius: 15px;
+.itk-slider button:disabled {
+  color: black;
+  font-weight: 800;
+  background-color: #f70000;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  border: #37ca19 solid 5px;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .cities {
