@@ -396,6 +396,23 @@ img.icon-setting {
   height: 50px;
 }
 
+<<<<<<< HEAD
+.itk-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-slider {
+  width: 350px;
+  height: 200px;
+=======
 .section-hot li,
 .section-news li {
   padding: 10px;
@@ -427,6 +444,7 @@ img.icon-setting {
 
 .section-news li a {
   color: #000;
+>>>>>>> 454617e4145969aca65bbd5d7c67477b6c9451e3
 }
 
 .cities {
