@@ -60,22 +60,22 @@ var imageButtonCat = document.getElementById('button-img-cat');
 function changeImageButtonVanja() {
 	var imageEl = document.getElementById('avatar');
 		// imageEl.src ='https://scandinews.fi/assets/image-cache/images/2015/4/0/1-0.246.2ee62299.jpg';
-		imageEl.src ='./img/AveIvan.jpg';
+		imageEl.src ='./img/foto_01/AveIvan.jpg';
 		imageEl.title = 'Ваня!';
 }
 function changeImageButtonMama() {
 	var imageEl = document.getElementById('avatar');
-		imageEl.src ='./img/mama.jpg';
+		imageEl.src ='./img/foto_01/mama.jpg';
 		imageEl.title = 'МАМА!';
 }
 function changeImageButtonPapa() {
 	var imageEl = document.getElementById('avatar');
-		imageEl.src ='./img/papa.jpg';
+		imageEl.src ='./img/foto_01/papa.jpg';
 		imageEl.title = 'ПАПА!';
 }
 function changeImageButtonGrmAnja() {
 	var imageEl = document.getElementById('avatar');
-		imageEl.src ='./img/grandmotherAnja.jpg';
+		imageEl.src ='./img/foto_01/grandmotherAnja.jpg';
 		imageEl.title = 'Бабушка Аня!';
 }
 function changeImageButtonCat() {
@@ -88,4 +88,3 @@ imageButtonMama.addEventListener ('click', changeImageButtonMama);
 imageButtonPapa.addEventListener ('click', changeImageButtonPapa);
 imageButtonGrmAnja.addEventListener ('click', changeImageButtonGrmAnja);
 imageButtonCat.addEventListener ('click', changeImageButtonCat);
-

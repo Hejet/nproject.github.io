@@ -1,10 +1,10 @@
-@import "./null";
-@import "./basic";
-@import "./header";
-@import "./perem";
-@import "./calc";
-@import "./animation";
-@import "./learn_style";
+@import "./base/null";
+@import "./base/basic";
+@import "./blocks/header";
+@import "./base/perem";
+@import "./blocks/calc";
+@import "./blocks/animation";
+@import "./blocks/learn_style";
 
 .cities {
 	text-align: center;

@@ -40,7 +40,7 @@ header {
 .img__megamarket {
 	background-color: #fff;
 }
-.container-icon {
+.container-menu {
 	display: flex;
 	flex: row nowrap;
 	widows: 1000px;
@@ -76,6 +76,19 @@ img {
 	margin: 5px;
 	//padding: 10px;
 }
+// ! Нужно сделать, что бы при нажатии контейнер прятался
+// .logo-market-title{
+// 	position: relative;
+// 	top :-85px;
+// }
+// .logo-market-wrapper {
+// 	display: none;
+// 	&:hover .logo-market-wrapper {
+// 		display: block;
+// 	}
+// }
+
+
 .logo-market {
 	padding: 20px;
 	margin: 20px 190px;
