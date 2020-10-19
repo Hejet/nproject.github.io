@@ -1,6 +1,7 @@
 header {
 	width: 1170px;
 	margin: 40px auto 0;
+
 }
 .header {
 	width: 1170px;
@@ -45,7 +46,9 @@ header {
 	flex: row nowrap;
 	widows: 1000px;
 	background-color: #4c309c;
-	color: #000;
+	a{
+		color: #000;
+	};
 }
 .icon-params {
 	display: flex;
@@ -55,6 +58,10 @@ header {
 	p {
 		padding: 5px;
 		color: #fff;
+	}
+	&:hover {
+		background-color: #fff;
+		color:yellow;
 	}
 }
 li {

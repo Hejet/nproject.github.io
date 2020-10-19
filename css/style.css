@@ -161,6 +161,7 @@ h3 {
 
 .container {
   width: 1170px;
+  height: 100%;
   margin: 0px auto;
   padding: 100px 0;
   -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -247,6 +248,9 @@ header {
           flex: row nowrap;
   widows: 1000px;
   background-color: #4c309c;
+}
+
+.container-icon a {
   color: #000;
 }
 
@@ -266,6 +270,11 @@ header {
 .icon-params p {
   padding: 5px;
   color: #fff;
+}
+
+.icon-params:hover {
+  background-color: #fff;
+  color: yellow;
 }
 
 li a {
@@ -295,6 +304,41 @@ img.icon-setting {
 
 .logo-market img:nth-child(2n) {
   padding: 10px;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 20px;
+  top: 0;
+  position: relative;
+}
+
+.button_1 {
+  color: #fff;
+  background-color: #5e5373;
+  -webkit-box-shadow: 0 5px 0px #3c354a;
+          box-shadow: 0 5px 0px #3c354a;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.button_1:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0px #3c354a;
+          box-shadow: 0 3px 0px #3c354a;
+  background-color: #18b5a4;
+}
+
+.container_button {
+  text-align: center;
+  height: 50px;
+  display: inline;
 }
 
 .jskmb-calculator {
@@ -362,40 +406,6 @@ img.icon-setting {
   padding: 5px;
 }
 
-.button {
-  text-decoration: none;
-  display: inline-block;
-  line-height: 60px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 18px;
-  border-radius: 20px;
-  top: 0;
-  position: relative;
-}
-
-.button_1 {
-  color: #fff;
-  background-color: #5e5373;
-  -webkit-box-shadow: 0 5px 0px #3c354a;
-          box-shadow: 0 5px 0px #3c354a;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-}
-
-.button_1:hover {
-  top: 2px;
-  -webkit-box-shadow: 0 3px 0px #3c354a;
-          box-shadow: 0 3px 0px #3c354a;
-  background-color: #18b5a4;
-}
-
-.container_button {
-  text-align: center;
-  height: 50px;
-}
-
 .itk-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,14 +413,43 @@ img.icon-setting {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
 }
 
+.itk-slider button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  background-color: #dfdb14;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.itk-slider button:hover {
+  background-color: #b231d3;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .img-slider {
-  width: 350px;
-  height: 200px;
+  width: 480px;
+  height: 280px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border: #37ca19 solid 5px;
 }
 
 .cities {
