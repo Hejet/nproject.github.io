@@ -317,9 +317,16 @@ img.icon-setting {
   border-radius: 20px;
   top: 0;
   position: relative;
+  outline: none;
+}
+
+.button:active,
+.button :visited {
+  outline: none;
 }
 
 .button_1 {
+  outline: none;
   color: #fff;
   background-color: #5e5373;
   -webkit-box-shadow: 0 5px 0px #3c354a;
@@ -422,6 +429,7 @@ img.icon-setting {
 }
 
 .itk-slider button {
+  outline: none;
   width: 100px;
   height: 50px;
   margin: 10px;
@@ -441,6 +449,11 @@ img.icon-setting {
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+
+.itk-slider button:active,
+.itk-slider button :focus {
+  outline: none;
 }
 
 .img-slider {
