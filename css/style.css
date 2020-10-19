@@ -397,6 +397,23 @@ img.icon-setting {
   height: 50px;
 }
 
+.itk-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-slider {
+  width: 350px;
+  height: 200px;
+}
+
 .cities {
   text-align: center;
 }

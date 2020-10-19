@@ -1,9 +1,10 @@
-@import "./null";
-@import "./basic";
-@import "./header";
-@import "./perem";
-@import "./calc";
-@import "./animation";
+@import "./base/null";
+@import "./base/basic";
+@import "./block/header";
+@import "./base/perem";
+@import "./block/calc";
+@import "./block/animation";
+@import "./block/slider";
 
 .cities {
 	text-align: center;
