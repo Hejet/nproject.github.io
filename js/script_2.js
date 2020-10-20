@@ -20,11 +20,9 @@
 
 // addErrorClass ('last-name');
 
-// Выполнить функцию прямо сейчас
-// addErrorClassAllInputs();
 
-// Отсрочить выполнение функции
-// window.setTimeout(addErrorClassToAllInputs, 2000);
+
+// ! Форма заполнения данных, с применением изменения классов
 
 function addErrorClass(elementID) {
   var fistName = document.getElementById('first-name');
@@ -48,6 +46,12 @@ function addErrorClassToAllInputs() {
 var sendButton = document.getElementById('button');
 
 sendButton.addEventListener('click', addErrorClassToAllInputs);
+
+// Выполнить функцию прямо сейчас
+// addErrorClassAllInputs();
+
+// Отсрочить выполнение функции
+// window.setTimeout(addErrorClassToAllInputs, 2000);
 
 // IMAGE
 var imageButtonVanja = document.getElementById('button-img-vanja');

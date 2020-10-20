@@ -1,6 +1,15 @@
+var slider1 = sliderFactory.createNewSlider();
+var slider2 = sliderFactory.createNewSlider();
+
+
+slider1.start('itk-slider1');
+slider2.start('itk-slider2');
+
+
+//? Создание слайдера
 // var imagesUrls = [];
 // let currentImageIndex = 0;
-// // ! find elements
+// ! find elements
 // let showPrevBtn = document.getElementById('show-prev-btn'),
 // 	showNextBtn = document.getElementById('show-next-btn'),
 // 	slideImage = document.getElementById('slide-img');
@@ -10,7 +19,7 @@
 // showNextBtn.addEventListener('click', onShowNextClick);
 
 
-// // ! create image array
+// ! create image array
 // imagesUrls.push('https://img.drive.ru/i/0/5b7fd52eec05c4804a000068.jpg');
 // imagesUrls.push('https://cdnimg.rg.ru/i/gallery/822747f4/6_7f5b75b1.jpg');
 // imagesUrls.push('https://wroom.ru/i/news/10932img1.jpg');
@@ -21,7 +30,7 @@
 // showPrevBtn.innerHTML = "STOP";
 
 
-// // ! Function definitions
+// ! Function definitions
 
 // function onShowPrevClick() {
 // 	currentImageIndex--;
@@ -29,7 +38,7 @@
 // 	showNextBtn.disabled = false;
 // 	showNextBtn.innerHTML = "NEXT";
 
-// 	// disabled prev Button if need
+// ! disabled prev Button if need
 // 	if (currentImageIndex === 0) {
 // 		showPrevBtn.disabled = true;
 // 		showPrevBtn.innerHTML = "STOP";
@@ -41,7 +50,7 @@
 // 	showPrevBtn.disabled = false;
 // 	showPrevBtn.innerHTML = "PREV";
 
-// 	// disabled next Button if need
+	// ! disabled next Button if need
 // 	if (currentImageIndex === (imagesUrls.length - 1)) {
 // 		showNextBtn.disabled = true;
 // 		showNextBtn.innerHTML = "STOP";
@@ -49,4 +58,3 @@
 
 // }
 
-slider.start();

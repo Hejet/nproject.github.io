@@ -69,8 +69,8 @@
   //  }
 
   // Мы даже можем вернуть строку, построенную другим шаблонным литералом
-// 	 return `${str0}${personExp}${str1}${ageStr}`
-// }
+  // 	 return `${str0}${personExp}${str1}${ageStr}`
+  // }
 
 
 // var output = myTag`That ${ person } is a ${ age }`;
@@ -80,4 +80,24 @@
 
 //That Mike is a youngster
 
-// !                       
+// !    Рисуем котиков   =^.^=   
+// var drawCarts = function (howManyTime) {
+// 	for ( i = 0 ; i < howManyTime ; i++) {
+// 		console.log( i + " =^.^=");
+// 	}
+// }
+// drawCarts(10);
+
+// !  Cклейка строк, можно выбрать любой символ из строки!!!
+let word1 = 'обернись',
+		word2 = 'неужели',
+		word3 = 'огурцы',
+		word4 = 'липкие',
+		word5 = '!?';
+
+let glueWorld = word1[1] + word2[1] + word3[1] + word4[1] + word5[0];
+let glueWorld2 = word1.slice(4,6) + word2.slice(3,5) + word4[0];
+console.log(glueWorld + ' & ' + glueWorld2);
+document.write(glueWorld + ' & ' + glueWorld2);
+
+ 
