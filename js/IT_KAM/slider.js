@@ -1,10 +1,20 @@
-var slider1 = sliderFactory.createNewSlider();
-var slider2 = sliderFactory.createNewSlider();
+var slider1 = new Slider();
+var slider2 = new Slider();
 
 
-slider1.start('itk-slider1');
+slider2.imagesUrls[0] = ('https://img.drive.ru/i/0/5b7fd52eec05c4804a000068.jpg');
+slider2.imagesUrls[1] = ('https://cdnimg.rg.ru/i/gallery/822747f4/6_7f5b75b1.jpg');
+slider2.imagesUrls[2] = ('https://wroom.ru/i/news/10932img1.jpg');
+slider2.imagesUrls[3] = ('https://s0.rbk.ru/v6_top_pics/media/img/4/39/755300180767394.jpg');
+
 slider2.start('itk-slider2');
 
+slider1.imagesUrls[0] = 'https://cdn.fishki.net/upload/post/201406/27/1280936/002.jpg';
+slider1.imagesUrls[1] = 'https://99px.ru/sstorage/53/2015/12/tmb_153870_9151.jpg';
+slider1.imagesUrls[2] = 'https://io.ua/img_aa/large/3665/31/36653193.jpg';
+slider1.imagesUrls[3] = 'https://img1.goodfon.ru/wallpaper/big/e/21/toyota-supra-carwash-devushka-mashina-moika-fotograf-denis-f.jpg';
+
+slider1.start('itk-slider1');
 
 //? Создание слайдера
 // var imagesUrls = [];
