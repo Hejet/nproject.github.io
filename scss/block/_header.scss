@@ -1,13 +1,21 @@
 header {
 	width: 1170px;
 	margin: 40px auto 0;
-
 }
 .header {
 	width: 1170px;
 	position: fixed;
 	top: 0;
 	z-index: 9999;
+	a{
+		img{
+			transition: 1s;
+			&:hover{
+				opacity: 0.5;
+				transform: scale(1.05);
+			}
+		}
+	}
 }
 .button-kategory {
 	margin-top: 5px;
@@ -55,13 +63,19 @@ header {
 	justify-content: center;
 	align-items: center;
 	margin: 5px;
-	p {
+	transition: 1s;
+	a {
 		padding: 5px;
 		color: #fff;
+		&:hover {
+			color:yellow;
+		}
 	}
 	&:hover {
-		background-color: #fff;
-		color:yellow;
+		background-color: #c51a1a;
+		transform: scale(1.1);
+		border: #000 solid 1px;
+		border-radius: 15px;
 	}
 }
 li {
@@ -86,9 +100,19 @@ img {
 .logo-market {
 	padding: 20px;
 	margin: 20px 190px;
-	border: 2px #000 solid;
+
 	box-shadow: 0 0 20px #000;
 	img:nth-child(2n) {
 		padding: 10px;
+	}
+	
+	img{
+		border: 2px #000 solid;
+		border-radius: 15px;
+		transition: 1s;
+		&:hover{
+			transform: scale(1.1);
+			// transition: 1s;
+		}
 	}
 }

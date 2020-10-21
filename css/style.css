@@ -136,8 +136,12 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
+  font-weight: 800;
   padding: 15px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h2 {
@@ -194,6 +198,17 @@ header {
   position: fixed;
   top: 0;
   z-index: 9999;
+}
+
+.header a img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header a img:hover {
+  opacity: 0.5;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .button-kategory {
@@ -265,16 +280,25 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-.icon-params p {
+.icon-params a {
   padding: 5px;
   color: #fff;
 }
 
-.icon-params:hover {
-  background-color: #fff;
+.icon-params a:hover {
   color: yellow;
+}
+
+.icon-params:hover {
+  background-color: #c51a1a;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: #000 solid 1px;
+  border-radius: 15px;
 }
 
 li a {
@@ -297,7 +321,6 @@ img.icon-setting {
 .logo-market {
   padding: 20px;
   margin: 20px 190px;
-  border: 2px #000 solid;
   -webkit-box-shadow: 0 0 20px #000;
           box-shadow: 0 0 20px #000;
 }
@@ -306,8 +329,32 @@ img.icon-setting {
   padding: 10px;
 }
 
+.logo-market img {
+  border: 2px #000 solid;
+  border-radius: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.logo-market img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .jskmb-calculator {
   width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row wrap;
+          flex: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   padding: 25px 15px;
   text-align: center;
@@ -317,18 +364,43 @@ img.icon-setting {
           box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
+.jskmb-calculator .operations-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: row;
+      -ms-flex: row wrap;
+          flex: row wrap;
+}
+
 .jskmb-calculator .operations-block button {
   width: 40px;
   height: 40px;
-  margin: 20px;
+  margin: 15px;
+  font-weight: 600;
 }
 
-.jskmb-calculator .inputs-block .input-block {
+.jskmb-calculator .operations-block button:last-child {
+  width: 80%;
+}
+
+.jskmb-calculator .operation-block-numbers {
+  width: 60%;
+}
+
+.jskmb-calculator .operations-block-oper {
+  width: 40%;
+}
+
+.inputs-block .input-block {
   display: inline-block;
   padding: 10px;
 }
 
-.jskmb-calculator .inputs-block .input-block label {
+.inputs-block .input-block label {
   display: block;
   color: #fff;
   padding: 5px;
