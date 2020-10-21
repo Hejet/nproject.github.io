@@ -12,6 +12,7 @@ ul h2:hover {
 	background-color: #1ca148;
 	transform: scale(1.01);
 	text-align: center;
+	border-top-left-radius: 100% 20px;
 }
 ul li {
 	padding: 8px;
