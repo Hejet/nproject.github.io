@@ -1,0 +1,158 @@
+[33mcommit efab45bcdbd71ca84bfe7c0d4258068f77a21614[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 21 20:27:56 2020 +0300
+
+    add lost file
+
+[33mcommit 42a912789a15a73d185586635fd1a6d94c0ce838[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 21 18:04:25 2020 +0300
+
+    add slider konstruktor
+
+[33mcommit 9edda58596cd32f6da9323a3ef423756df359faf[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Tue Oct 20 18:39:11 2020 +0300
+
+    add sliderFactory
+
+[33mcommit 402eb42368742a1798a2a6df7b10447a180ba442[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Tue Oct 20 11:42:57 2020 +0300
+
+    merge projects
+
+[33mcommit 4a04c04d78644b31f88e5f0e67013b152b4cd230[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Tue Oct 20 00:52:24 2020 +0300
+
+    fix html
+
+[33mcommit d267b5c7db122978b2e9a3de69d62314d2d4d457[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 23:35:19 2020 +0300
+
+    add slider object
+
+[33mcommit ad075521c466b216ce9cdb5a4212561a597555a4[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 19:16:59 2020 +0300
+
+    desigin buttons
+
+[33mcommit 04ff412c4142ac421e60b28f2037850a79ec331c[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 19:08:49 2020 +0300
+
+    disign slider
+
+[33mcommit a65c037034c3dc4bdffa2b284c33839649ae8b7b[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 18:15:54 2020 +0300
+
+    refactoring
+
+[33mcommit ac1922350e76493547a369d05f0f4701744f1fb2[m
+Merge: 93cff71 7aaf372
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 18:12:02 2020 +0300
+
+    merge brains home
+
+[33mcommit 93cff71d69e8f145957997439b4d22ba183602ea[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 18:10:56 2020 +0300
+
+    restructure
+
+[33mcommit 7aaf372121a9894e275d8411eacac662eed2766e[m
+Merge: 2ae4942 454617e
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 16:11:28 2020 +0300
+
+    merge brains
+
+[33mcommit 2ae4942157f7c6e0c8d147038caca0fe2c683fe1[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 19 16:09:39 2020 +0300
+
+    add slider
+
+[33mcommit 454617e4145969aca65bbd5d7c67477b6c9451e3[m
+Merge: bcb8168 5e839fc
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Fri Oct 16 21:18:58 2020 +0300
+
+    Merge branch 'master' of https://github.com/Chuwoza/nproject.github.io
+
+[33mcommit bcb8168e317c3e4612540ee9c612cf2d9a8d4b7a[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Fri Oct 16 21:18:47 2020 +0300
+
+    add css learn
+
+[33mcommit 5e839fcde1e0574ed4282b695d82f57b966a10a0[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Fri Oct 16 15:54:02 2020 +0300
+
+    all change 16/10/20
+
+[33mcommit ef0aaed283d0bcc37ebae3dc1feb9a7a0920814c[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Fri Oct 16 13:15:51 2020 +0300
+
+    add changer
+
+[33mcommit 3f43b84527d902396962e6d317b9cda889350f72[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Thu Oct 15 16:46:18 2020 +0300
+
+    learn js
+
+[33mcommit 9fb1199392f9212de8b8d8215ece0670a6af1eae[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Thu Oct 15 10:11:48 2020 +0300
+
+    appdate dsDtore
+
+[33mcommit 8a5179023c24b2adf100be9ac12969a4bd47e690[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 14 23:44:54 2020 +0300
+
+    add category button
+
+[33mcommit 1230187a1133a32e3ed4b93df1c938d40327e89e[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 14 22:59:42 2020 +0300
+
+    fixing JS Calc
+
+[33mcommit 002f33957e12a4989b002af37e87694de29a3e2c[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 14 22:48:18 2020 +0300
+
+    fixing js error-class
+
+[33mcommit fee906ef0339c01e70c89b9b24e2a4bbf6cf5bb8[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Wed Oct 14 22:35:28 2020 +0300
+
+    finish calc
+
+[33mcommit 0881c1797e257133d784230b97453b15e95a4293[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 12 13:55:04 2020 +0300
+
+    Third rep
+
+[33mcommit 6b5ad7ebb6268e2662b143e65ce8c67922cd7c4f[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 12 11:41:34 2020 +0300
+
+    clean breanch
+
+[33mcommit 4204303aaf9f6d9b236a2679136fe883ded6c876[m
+Author: Vladimir <chuwoza313@gmail.com>
+Date:   Mon Oct 12 11:18:09 2020 +0300
+
+    first rep

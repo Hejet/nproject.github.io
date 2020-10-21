@@ -1,96 +1,126 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
-  background: transparent;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-}
-
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
-}
-
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
-}
-
-/* change colours to suit your needs */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
-
-del {
-  text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-/* change border colour to suit your needs */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-input, select {
-  vertical-align: middle;
 }
 
 * {
@@ -276,6 +306,34 @@ img.icon-setting {
   padding: 10px;
 }
 
+.jskmb-calculator {
+  width: 500px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  text-align: center;
+  border: 10px #bb3232 double;
+  background-color: #3c73a7;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.jskmb-calculator .operations-block button {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.jskmb-calculator .inputs-block .input-block {
+  display: inline-block;
+  padding: 10px;
+}
+
+.jskmb-calculator .inputs-block .input-block label {
+  display: block;
+  color: #fff;
+  padding: 5px;
+}
+
 .button {
   text-decoration: none;
   display: inline-block;
@@ -302,7 +360,6 @@ img.icon-setting {
   -webkit-box-shadow: 0 5px 0px #3c354a;
           box-shadow: 0 5px 0px #3c354a;
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -367,7 +424,6 @@ img.icon-setting {
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -387,7 +443,6 @@ img.icon-setting {
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   -webkit-transition-duration: 0.3s;
-       -o-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
 
