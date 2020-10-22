@@ -173,6 +173,9 @@ h3 {
 }
 
 .container-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px;
   margin: 30px 30px;
   border: 2px #000 solid;
@@ -202,12 +205,14 @@ header {
 
 .header a img {
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
 .header a img:hover {
   opacity: 0.5;
   -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -258,9 +263,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row nowrap;
-          flex: row nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   widows: 1000px;
   background-color: #4c309c;
 }
@@ -281,10 +287,12 @@ header {
           align-items: center;
   margin: 5px;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
 .icon-params a {
+  text-decoration: none;
   padding: 5px;
   color: #fff;
 }
@@ -296,6 +304,7 @@ header {
 .icon-params:hover {
   background-color: #c51a1a;
   -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
   border: #000 solid 1px;
   border-radius: 15px;
@@ -333,11 +342,13 @@ img.icon-setting {
   border: 2px #000 solid;
   border-radius: 15px;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
 .logo-market img:hover {
   -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
@@ -346,9 +357,10 @@ img.icon-setting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row wrap;
-          flex: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -371,9 +383,6 @@ img.icon-setting {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: row;
-      -ms-flex: row wrap;
-          flex: row wrap;
 }
 
 .jskmb-calculator .operations-block button {
@@ -432,6 +441,7 @@ img.icon-setting {
   -webkit-box-shadow: 0 5px 0px #3c354a;
           box-shadow: 0 5px 0px #3c354a;
   -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -496,6 +506,7 @@ img.icon-setting {
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -515,6 +526,7 @@ img.icon-setting {
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
 
@@ -536,9 +548,6 @@ img.icon-setting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: column;
-      -ms-flex: column nowrap;
-          flex: column nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

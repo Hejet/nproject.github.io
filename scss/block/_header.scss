@@ -51,7 +51,7 @@ header {
 }
 .container-icon {
 	display: flex;
-	flex: row nowrap;
+	flex-flow: row nowrap;
 	widows: 1000px;
 	background-color: #4c309c;
 	a{
@@ -65,6 +65,7 @@ header {
 	margin: 5px;
 	transition: 1s;
 	a {
+		text-decoration: none;
 		padding: 5px;
 		color: #fff;
 		&:hover {
