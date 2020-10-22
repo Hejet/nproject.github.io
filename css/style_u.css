@@ -1,4 +1,24 @@
 .container-wrapper {
 	display: flex;
-	flex-flow: column nowrap;
+	/* flex-flow: column nowrap; */
+}
+.container-wrapper .heading-head,
+.container-wrapper .heading-link{
+	font-size: 22px;
+	color: #000;
+	transition: 1s;
+	padding: 15px;
+	text-decoration: none;
+	border: 5px double #e04d4d;
+	border-radius: 35px;
+	background-color: #fff;
+}
+.container-wrapper .heading-head:hover,
+.container-wrapper .heading-link:hover{
+	font-weight: 700;
+	color: aliceblue;
+	transform: scale(1.1);
+	background-color: #bd3636;
+	border: 5px double #000;
+	
 }
