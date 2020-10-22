@@ -1,0 +1,23 @@
+ul h2{
+	border:#000 solid 1px;
+	border-radius: 12px;
+	padding: 5px;
+	transition: 1s;
+}
+ul h2:hover {
+	color:#fff;
+	border:#ecde17 double 6px;
+	border-radius: 12px;
+	font-size: 22px;
+	background-color: #1ca148;
+	transform: scale(1.01);
+	text-align: center;
+	border-top-left-radius: 100% 20px;
+}
+ul li {
+	padding: 8px;
+}
+ul li a {
+	line-height: 2;
+	color:#000;
+}
