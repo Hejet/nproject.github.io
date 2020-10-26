@@ -53,30 +53,30 @@
 // var age = 28;
 
 // function myTag(strings, personExp, ageExp) {
-//   var str0 = strings[0]; // "That "
-//   var str1 = strings[1]; // " is a "
+// 	// var str0 = strings[0]; // "That "
+// 	// var str1 = strings[1]; // " is a "
 
-  // Технически, в конце итогового выражения
-  // (в нашем примере) есть ещё одна строка,
-  // но она пустая (""), так что пропустим её.
-  // var str2 = strings[2];
+// 	// Технически, в конце итогового выражения
+// 	// (в нашем примере) есть ещё одна строка,
+// 	// но она пустая (""), так что пропустим её.
+// 	// var str2 = strings[2];
 
-  // var ageStr;
-  // if (ageExp > 99){
-  //   ageStr = 'centenarian';
-  // } else {
-  //   ageStr = 'youngster';
-  //  }
+// 	var ageStr;
+// 	if (ageExp > 99) {
+// 		ageStr = 'centenarian';
+// 	} else {
+// 		ageStr = 'youngster';
+// 	}
 
-  // Мы даже можем вернуть строку, построенную другим шаблонным литералом
-  // 	 return `${str0}${personExp}${str1}${ageStr}`
-  // }
+// 	// Мы даже можем вернуть строку, построенную другим шаблонным литералом
+// 	return `${str0}${personExp}${str1}${ageStr}`
+// }
 
 
-// var output = myTag`That ${ person } is a ${ age }`;
+// var output = myTag`That ${person} is a ${age}`;
 
-// console.log(output); 
-// console.log(myTag()); 
+// console.log(output);
+//console.log(myTag());
 
 //That Mike is a youngster
 
@@ -89,15 +89,14 @@
 // drawCarts(10);
 
 // !  Cклейка строк, можно выбрать любой символ из строки!!!
-let word1 = 'обернись',
-		word2 = 'неужели',
-		word3 = 'огурцы',
-		word4 = 'липкие',
-		word5 = '!?';
+// let word1 = 'обернись',
+// 	word2 = 'неужели',
+// 	word3 = 'огурцы',
+// 	word4 = 'липкие',
+// 	word5 = '!?';
 
-let glueWorld = word1[1] + word2[1] + word3[1] + word4[1] + word5[0];
-let glueWorld2 = word1.slice(4,6) + word2.slice(3,5) + word4[0];
-console.log(glueWorld + ' & ' + glueWorld2);
-document.write(glueWorld + ' & ' + glueWorld2);
+// let glueWorld = word1[1] + word2[1] + word3[1] + word4[1] + word5[0];
+// let glueWorld2 = word1.slice(4, 6) + word2.slice(3, 5) + word4[0];
+// console.log(glueWorld + ' & ' + glueWorld2);
+// document.write(glueWorld + ' & ' + glueWorld2);
 
- 
