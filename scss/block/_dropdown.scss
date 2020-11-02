@@ -1,0 +1,177 @@
+.service-grid-b {
+	position: relative;
+}
+.service-photo-text-aa {
+	display: flex;
+	color: $c21;
+	font-family: Montserrat-bold;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+	align-items: center;
+	padding-left: 61px;
+	&::before {
+		position: absolute;
+		content: "";
+		width: 22px;
+		height: 12px;
+		background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-left: 15%;
+		transform: rotate(0deg);
+		&:active {
+			// position: absolute;
+			// content: "";
+			transform: rotate(270deg);
+		}
+	}
+}
+.service-photo-title-a {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	border: 1px solid $c2;
+	cursor: pointer;
+}
+.service-photo-text-b {
+	width: 100%;
+	height: 181px;
+	border: 1px solid $c2;
+	display: none;
+}
+.service-photo-text-bb {
+	width: 525px;
+	height: 132px;
+	color: $c20;
+	font-family: "Roboto - Light Italic";
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.service-crea-text-aa {
+	display: flex;
+	color: $c21;
+	font-family: Montserrat-bold;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+	align-items: center;
+	padding-left: 61px;
+	&::before {
+		position: absolute;
+		content: "";
+		width: 22px;
+		height: 12px;
+		background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-left: 80%;
+		transform: rotate(0deg);
+		&:active {
+			position: absolute;
+			content: "";
+			transform: rotate(40deg);
+		}
+	}
+}
+.service-crea-title-a {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	border: 1px solid $c2;
+	cursor: pointer;
+}
+.service-crea-text-b {
+	width: 100%;
+	height: 181px;
+	border: 1px solid $c2;
+	display: none;
+}
+.service-crea-text-bb {
+	width: 525px;
+	height: 132px;
+	color: $c20;
+	font-family: "Roboto - Light Italic";
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.service-web-text-aa {
+	display: flex;
+	color: $c21;
+	font-family: Montserrat-bold;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+	align-items: center;
+	padding-left: 61px;
+	&::before {
+		position: absolute;
+		content: "";
+		width: 22px;
+		height: 12px;
+		background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-left: -4%; //80% - start
+		transform: rotate(0deg);
+		&:active {
+			position: absolute;
+			content: "";
+			transform: rotate(40deg);
+		}
+	}
+}
+
+.service-web-title-a {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	border: 1px solid $c2;
+	cursor: pointer;
+}
+.service-web-text-b {
+	width: 100%;
+	height: 181px;
+	border: 1px solid $c2;
+	display: none;
+}
+.service-web-text-bb {
+	width: 525px;
+	height: 132px;
+	color: $c20;
+	font-family: "Roboto - Light Italic";
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}

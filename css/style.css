@@ -205,14 +205,12 @@ header {
 
 .header a img {
   -webkit-transition: 1s;
-  -o-transition: 1s;
   transition: 1s;
 }
 
 .header a img:hover {
   opacity: 0.5;
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -287,7 +285,6 @@ header {
           align-items: center;
   margin: 5px;
   -webkit-transition: 1s;
-  -o-transition: 1s;
   transition: 1s;
 }
 
@@ -304,7 +301,6 @@ header {
 .icon-params:hover {
   background-color: #c51a1a;
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   border: #000 solid 1px;
   border-radius: 15px;
@@ -342,13 +338,11 @@ img.icon-setting {
   border: 2px #000 solid;
   border-radius: 15px;
   -webkit-transition: 1s;
-  -o-transition: 1s;
   transition: 1s;
 }
 
 .logo-market img:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
@@ -441,7 +435,6 @@ img.icon-setting {
   -webkit-box-shadow: 0 5px 0px #3c354a;
           box-shadow: 0 5px 0px #3c354a;
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -506,7 +499,6 @@ img.icon-setting {
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
           transition-duration: 1s;
 }
 
@@ -526,8 +518,230 @@ img.icon-setting {
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   -webkit-transition-duration: 0.3s;
-       -o-transition-duration: 0.3s;
           transition-duration: 0.3s;
+}
+
+.service-grid-b {
+  position: relative;
+}
+
+.service-photo-text-aa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #808080;
+  font-family: Montserrat-bold;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 61px;
+}
+
+.service-photo-text-aa::before {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 12px;
+  background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 15%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.service-photo-text-aa::before:active {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 12px;
+  background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 15%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.service-photo-title-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #df9f9f;
+  cursor: pointer;
+}
+
+.service-photo-text-b {
+  width: 100%;
+  height: 181px;
+  border: 1px solid #df9f9f;
+  display: none;
+}
+
+.service-photo-text-bb {
+  width: 525px;
+  height: 132px;
+  color: #16e449;
+  font-family: "Roboto - Light Italic";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.service-crea-text-aa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #808080;
+  font-family: Montserrat-bold;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 61px;
+}
+
+.service-crea-text-aa::before {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 12px;
+  background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 80%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.service-crea-text-aa::before:active {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.service-crea-title-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #df9f9f;
+  cursor: pointer;
+}
+
+.service-crea-text-b {
+  width: 100%;
+  height: 181px;
+  border: 1px solid #df9f9f;
+  display: none;
+}
+
+.service-crea-text-bb {
+  width: 525px;
+  height: 132px;
+  color: #16e449;
+  font-family: "Roboto - Light Italic";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.service-web-text-aa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #808080;
+  font-family: Montserrat-bold;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 61px;
+}
+
+.service-web-text-aa::before {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 12px;
+  background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: -4%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.service-web-text-aa::before:active {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.service-web-title-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #df9f9f;
+  cursor: pointer;
+}
+
+.service-web-text-b {
+  width: 100%;
+  height: 181px;
+  border: 1px solid #df9f9f;
+  display: none;
+}
+
+.service-web-text-bb {
+  width: 525px;
+  height: 132px;
+  color: #16e449;
+  font-family: "Roboto - Light Italic";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .cities {
