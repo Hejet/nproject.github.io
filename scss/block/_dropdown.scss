@@ -24,10 +24,17 @@
 		background-size: 100% 100%;
 		margin-left: 15%;
 		transform: rotate(0deg);
-		&:active {
-			// position: absolute;
-			// content: "";
-			transform: rotate(270deg);
+		// &:active {
+		// 	// position: absolute;
+		// 	// content: "";
+		// 	transform: rotate(270deg);
+		// }
+	}
+}
+.service-photo-title-a {
+	.active {
+		.service-photo-text-aa::before {
+			transform: rotate(180deg);
 		}
 	}
 }
