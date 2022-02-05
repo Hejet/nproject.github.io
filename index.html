@@ -10,15 +10,282 @@
 </head>
 
 <body>
-	<!-- !Хедер -->
-	<header>
-		<div class="header">
-			<a class="icon-logo" href="./index.html" target="_blank">
-				<img src="./img/logo/logo-klik.svg" alt="" class="" />
-			</a>
-			<div class="container-icon">
+	<div class="wrapper">
+		<!-- !Хедер -->
+		<header>
+			<div class="container-inner header">
+				<a class="icon-logo" href="./index.html" target="_blank">
+					<img src="./img/logo/logo-klik.svg" alt="" class="" />
+				</a>
+				<div class="container-icon">
+					<div class="container_button">
+						<button class="button-kategory" id="">КАТЕГОРИИ</button>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/next.svg" alt="" class="icon-setting" />
+						<a href="./html/selectors.html">"Учим стили"</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/training.png" alt="" class="icon-setting" />
+						<a href="./html/index_udemy.html">"UDEMY"</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/header_exact position.svg" alt="" class="icon-setting" />
+						<a href="">Доставка</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/icon-arrow.svg" alt="" class="icon-setting" />
+						<a href="">arrow</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/icon-enter-ava.svg" alt="" class="icon-setting" />
+						<a href="">User</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/icon-recipe.svg" alt="" class="icon-setting" />
+						<a href="">reciept</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/icon-search.svg" alt="" class="icon-setting" />
+						<a href="">search</a>
+					</div>
+					<div class="icon-params">
+						<img src="./img/icon/icon_basket.svg" alt="" class="icon-setting" />
+						<a href="">basket</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main container">
+			<!-- ! Логотипы магазинов -->
+			<div class="container-wrapper logo-market-wrapper">
+				<h3 class="logo-market-title">Логотипы магазинов:</h3>
+				<div class="logo-market">
+					<img src="./img/logo/form_silpo.svg" alt="" class="logo__container" />
+					<img src="./img/logo/form_ashan.svg" class="img__auchan logo__container" />
+					<img class="img__metro logo__container" src="./img/logo/form_metro.svg" />
+					<img src="./img/logo/form_novus.svg" class="logo__container" />
+					<img src="./img/logo/form_eko_market.svg" class="logo__container eko" />
+					<img src="./img/logo/form_mega_market.svg" class="logo__container img__megamarket" />
+					<img src="./img/logo/form_furshet.svg" class="logo__container" />
+				</div>
+				<br />
+				<!-- Список городов -->
+				<div class="cities">
+					<span class="cities-text"> Выберите город: </span>
+					<select id="cities">
+						<option>Днепр</option>
+						<option selected="selected">Киев</option>
+						<option>Харьков</option>
+						<option>Львов</option>
+					</select>
+				</div>
+			</div>
+			<!-- ! Слушаем события -->
+			<div class="container-wrapper">
+				<h3>#_14_Lesson: addEventListener</h3>
+				<div class="container-input">
+					<ul class="form-container-wrapper">
+						<li class="form-row">
+							<input value="Владимир" type="" id="first-name" />
+						</li>
+						<li class="form-row">
+							<input value="Иванов" type="" id="last-name" />
+						</li>
+						<li class="form-row">
+							<input value="Киев" type="" id="address" />
+						</li>
+						<li class="form-row">
+							<button id="button">Send</button>
+						</li>
+					</ul>
+				</div>
+				<div id="avatar__wrapper">
+					<div class="container_button">
+						<button class="button button_1" id="button-img-vanja">Ваня</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-mama">MAMA</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-papa">ПАПА</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-grmAnja">
+							БАБУШКА АНЯ
+						</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-ded">Дед</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-babaDed">Баба+Дед</button>
+					</div>
+					<div class="container_button">
+						<button class="button button_1" id="button-img-cat">КОТ</button>
+					</div>
+				</div>
+				<div class="foto">
+					<img id="avatar" src="https://cdn.fishki.net/upload/post/201503/18/1469065/6320710-r3l8t8d-650-480-934x.jpg"
+						alt="Фото" />
+				</div>
+			</div>
+			<!-- ! Функции -->
+			<div class="container-wrapper">
+				<h3>Link: free PSD Maket`s for Resume</h3>
+				<a href="https://psdrepo.com/">psdrepo</a>
+			</div>
+
+			<!-- ! Блок с выпадашками(dropdown) с JS -->
+			<div class="container-wrapper">
+				<div class="service-grid-b">
+					<div class="service-photo-cont">
+						<div class="service-photo-title-a">
+							<p class="service-photo-text-aa">PHOTOGRAPHY</p>
+						</div>
+						<div class="service-photo-text-b">
+							<p class="service-photo-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="service-crea-cont">
+						<div class="service-crea-title-a">
+							<p class="service-crea-text-aa">CREATIVITY</p>
+						</div>
+						<div class="service-crea-text-b">
+							<p class="service-crea-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="service-web-cont">
+						<div class="service-web-title-a">
+							<p class="service-web-text-aa">WEB DESIGN</p>
+						</div>
+						<div class="service-web-text-b">
+							<p class="service-web-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+				<script src="../js/dropdown.js"></script>
+
+
+
+			</div>
+			<!-- ! "Это калькулятор" -->
+			<div id="calc1">
+				<div class="container-wrapper">
+					<h3>#_15_Lesson: addEventListener-CALCULATOR</h3>
+					<div class="jskmb-calculator">
+						<div class="inputs-block">
+							<div class="input-block">
+								<label for="">Number 1</label>
+								<input type="number" name="" id="number1" />
+							</div>
+							<div class="input-block">
+								<label for="">Number 2 </label>
+								<input type="number" name="" id="number2" />
+							</div>
+							<div class="number-2"></div>
+							<div class="separator">
+								<hr />
+							</div>
+							<div class="operations-block">
+								<button id="buttonPlus" class="operation-button">+</button>
+								<button id="buttonMinus" class="operation-button">-</button>
+								<button id="buttonMultyply" class="operation-button">*</button>
+								<button id="buttonDevide" class="operation-button">/</button>
+								<button id="buttonEqually" class="operation-button">=</button>
+								<!-- </div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ! "Это калькулятор-2" -->
+			<div id="calc2">
+				<div class="container-wrapper">
+					<h3>#_15_Lesson: addEventListener-CALCULATOR ver 2.0</h3>
+					<div class="jskmb-calculator">
+						<div class="inputs-block">
+							<div class="input-block">
+								<label for="">Number 1</label>
+								<input type="number" name="" id="number1" />
+							</div>
+							<div class="input-block">
+								<label for="">Number 2 </label>
+								<input type="number" name="" id="number2" />
+							</div>
+							<div class="input-block number-result">
+								<label for="">Вычисление:</label>
+								<input type="number" name="" id="calc-operation" />
+							</div>
+							<div class="number-2"></div>
+							<div class="separator">
+								<hr />
+							</div>
+							<div class="operations-block">
+								<div class="operation-block-numbers">
+									<button id="button01" class="number-button">1</button>
+									<button id="button02" class="number-button">2</button>
+									<button id="button03" class="number-button">3</button>
+									<button id="button04" class="number-button">4</button>
+									<button id="button05" class="number-button">5</button>
+									<button id="button06" class="number-button">6</button>
+									<button id="button07" class="number-button">7</button>
+									<button id="button08" class="number-button">8</button>
+									<button id="button09" class="number-button">9</button>
+									<button id="button00" class="number-button">0</button>
+								</div>
+								<div class="operations-block-oper">
+									<button id="buttonBracketsLeft" class="operation-button">(</button>
+									<button id="buttonBracketsRight" class="operation-button">)</button>
+									<button id="buttonPlus" class="operation-button">+</button>
+									<button id="buttonMinus" class="operation-button">-</button>
+									<button id="buttonMultyply" class="operation-button">*</button>
+									<button id="buttonDevide" class="operation-button">/</button>
+									<button id="buttonEqually" class="operation-button">=</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ! "Это блок с самописным слайдером"-->
+			<div class="slider-block">
+				<div class="container-wrapper">
+					<h3>#_21_Lesson: addEventListener - "SLIDER" </h3>
+					<div id="itk-slider1">
+						<button class="show-prev-btn">PREW</button>
+						<img src="" alt="" srcset="" class="slide-img" id="">
+						<button class="show-next-btn">NEXT</button>
+					</div>
+					<div id="itk-slider2">
+						<button class="show-prev-btn">PREW</button>
+						<img src="" alt="" srcset="" class="slide-img" id="">
+						<button class="show-next-btn">NEXT</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container ">
+			<div class="container-inner container-icon">
 				<div class="container_button">
-					<button class="button-kategory" id="">КАТЕГОРИИ</button>
+					<button class="button-kategory" id="">
+						<a class="icon-logo" href="./index.html" target="_blank">refrash</a>
+					</button>
 				</div>
 				<div class="icon-params">
 					<img src="./img/icon/next.svg" alt="" class="icon-setting" />
@@ -28,22 +295,22 @@
 					<img src="./img/icon/training.png" alt="" class="icon-setting" />
 					<a href="./html/index_udemy.html">"UDEMY"</a>
 				</div>
-				<div class="icon-params">
-					<img src="./img/icon/header_exact position.svg" alt="" class="icon-setting" />
-					<a href="">Доставка</a>
-				</div>
-				<div class="icon-params">
-					<img src="./img/icon/icon-arrow.svg" alt="" class="icon-setting" />
-					<a href="">arrow</a>
-				</div>
-				<div class="icon-params">
-					<img src="./img/icon/icon-enter-ava.svg" alt="" class="icon-setting" />
-					<a href="">User</a>
-				</div>
-				<div class="icon-params">
-					<img src="./img/icon/icon-recipe.svg" alt="" class="icon-setting" />
-					<a href="">reciept</a>
-				</div>
+				<!-- 				<div class="icon-params">
+										<img src="./img/icon/header_exact position.svg" alt="" class="icon-setting" />
+										<a href="">Доставка</a>
+									</div>
+									<div class="icon-params">
+										<img src="./img/icon/icon-arrow.svg" alt="" class="icon-setting" />
+										<a href="">arrow</a>
+									</div>
+									<div class="icon-params">
+										<img src="./img/icon/icon-enter-ava.svg" alt="" class="icon-setting" />
+										<a href="">User</a>
+									</div>
+									<div class="icon-params">
+										<img src="./img/icon/icon-recipe.svg" alt="" class="icon-setting" />
+										<a href="">reciept</a>
+									</div> -->
 				<div class="icon-params">
 					<img src="./img/icon/icon-search.svg" alt="" class="icon-setting" />
 					<a href="">search</a>
@@ -53,232 +320,9 @@
 					<a href="">basket</a>
 				</div>
 			</div>
-		</div>
-	</header>
-	<div class="container">
-		<!-- ! Логотипы магазинов -->
-		<div class="container-wrapper logo-market-wrapper">
-			<h3 class="logo-market-title">Логотипы магазинов:</h3>
-			<div class="logo-market">
-				<img src="./img/logo/form_silpo.svg" alt="" class="logo__container" />
-				<img src="./img/logo/form_ashan.svg" class="img__auchan logo__container" />
-				<img class="img__metro logo__container" src="./img/logo/form_metro.svg" />
-				<img src="./img/logo/form_novus.svg" class="logo__container" />
-				<img src="./img/logo/form_eko_market.svg" class="logo__container eko" />
-				<img src="./img/logo/form_mega_market.svg" class="logo__container img__megamarket" />
-				<img src="./img/logo/form_furshet.svg" class="logo__container" />
-			</div>
-			<br />
-			<!-- Список городов -->
-			<div class="cities">
-				<span class="cities-text"> Выберите город: </span>
-				<select id="cities">
-					<option>Днепр</option>
-					<option selected="selected">Киев</option>
-					<option>Харьков</option>
-					<option>Львов</option>
-				</select>
-			</div>
-		</div>
-		<!-- ! Слушаем события -->
-		<div class="container-wrapper">
-			<h3>#_14_Lesson: addEventListener</h3>
-			<div class="container-inner">
-				<ul class="form-container-wrapper">
-					<li class="form-row">
-						<input value="Владимир" type="" id="first-name" />
-					</li>
-					<li class="form-row">
-						<input value="Иванов" type="" id="last-name" />
-					</li>
-					<li class="form-row">
-						<input value="Киев" type="" id="address" />
-					</li>
-					<li class="form-row">
-						<button id="button">Send</button>
-					</li>
-				</ul>
-			</div>
-			<div id="avatar__wrapper">
-				<div class="container_button">
-					<button class="button button_1" id="button-img-vanja">Ваня</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-mama">MAMA</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-papa">ПАПА</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-grmAnja">
-						БАБУШКА АНЯ
-					</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-ded">Дед</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-babaDed">Баба+Дед</button>
-				</div>
-				<div class="container_button">
-					<button class="button button_1" id="button-img-cat">КОТ</button>
-				</div>
-			</div>
-			<div class="foto">
-				<img id="avatar" src="https://cdn.fishki.net/upload/post/201503/18/1469065/6320710-r3l8t8d-650-480-934x.jpg"
-					alt="Фото" />
-			</div>
-		</div>
-		<!-- ! Функции -->
-		<div class="container-wrapper">
-			<h3>Link: free PSD Maket`s for Resume</h3>
-			<a href="https://psdrepo.com/">psdrepo</a>
-		</div>
-
-		<!-- ! Блок с выпадашками(dropdown) с JS -->
-		<div class="container-wrapper">
-			<div class="service-grid-b">
-				<div class="service-photo-cont">
-					<div class="service-photo-title-a">
-						<p class="service-photo-text-aa">PHOTOGRAPHY</p>
-					</div>
-					<div class="service-photo-text-b">
-						<p class="service-photo-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-				<div class="service-crea-cont">
-					<div class="service-crea-title-a">
-						<p class="service-crea-text-aa">CREATIVITY</p>
-					</div>
-					<div class="service-crea-text-b">
-						<p class="service-crea-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-				<div class="service-web-cont">
-					<div class="service-web-title-a">
-						<p class="service-web-text-aa">WEB DESIGN</p>
-					</div>
-					<div class="service-web-text-b">
-						<p class="service-web-text-bb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-			</div>
-
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-			<script src="../js/dropdown.js"></script>
-
-
-
-		</div>
-		<!-- ! "Это калькулятор" -->
-		<div id="calc1">
-			<div class="container-wrapper">
-				<h3>#_15_Lesson: addEventListener-CALCULATOR</h3>
-				<div class="jskmb-calculator">
-					<div class="inputs-block">
-						<div class="input-block">
-							<label for="">Number 1</label>
-							<input type="number" name="" id="number1" />
-						</div>
-						<div class="input-block">
-							<label for="">Number 2 </label>
-							<input type="number" name="" id="number2" />
-						</div>
-						<div class="number-2"></div>
-						<div class="separator">
-							<hr />
-						</div>
-						<div class="operations-block">
-							<button id="buttonPlus" class="operation-button">+</button>
-							<button id="buttonMinus" class="operation-button">-</button>
-							<button id="buttonMultyply" class="operation-button">*</button>
-							<button id="buttonDevide" class="operation-button">/</button>
-							<button id="buttonEqually" class="operation-button">=</button>
-							<!-- </div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- ! "Это калькулятор-2" -->
-		<div id="calc2">
-			<div class="container-wrapper">
-				<h3>#_15_Lesson: addEventListener-CALCULATOR ver 2.0</h3>
-				<div class="jskmb-calculator">
-					<div class="inputs-block">
-						<div class="input-block">
-							<label for="">Number 1</label>
-							<input type="number" name="" id="number1" />
-						</div>
-						<div class="input-block">
-							<label for="">Number 2 </label>
-							<input type="number" name="" id="number2" />
-						</div>
-						<div class="input-block number-result">
-							<label for="">Вычисление:</label>
-							<input type="number" name="" id="calc-operation" />
-						</div>
-						<div class="number-2"></div>
-						<div class="separator">
-							<hr />
-						</div>
-						<div class="operations-block">
-							<div class="operation-block-numbers">
-								<button id="button01" class="number-button">1</button>
-								<button id="button02" class="number-button">2</button>
-								<button id="button03" class="number-button">3</button>
-								<button id="button04" class="number-button">4</button>
-								<button id="button05" class="number-button">5</button>
-								<button id="button06" class="number-button">6</button>
-								<button id="button07" class="number-button">7</button>
-								<button id="button08" class="number-button">8</button>
-								<button id="button09" class="number-button">9</button>
-								<button id="button00" class="number-button">0</button>
-							</div>
-							<div class="operations-block-oper">
-								<button id="buttonBracketsLeft" class="operation-button">(</button>
-								<button id="buttonBracketsRight" class="operation-button">)</button>
-								<button id="buttonPlus" class="operation-button">+</button>
-								<button id="buttonMinus" class="operation-button">-</button>
-								<button id="buttonMultyply" class="operation-button">*</button>
-								<button id="buttonDevide" class="operation-button">/</button>
-								<button id="buttonEqually" class="operation-button">=</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- ! "Это блок с самописным слайдером"-->
-		<div class="slider-block">
-			<div class="container-wrapper">
-				<h3>#_21_Lesson: addEventListener - "SLIDER" </h3>
-				<div id="itk-slider1">
-					<button class="show-prev-btn">PREW</button>
-					<img src="" alt="" srcset="" class="slide-img" id="">
-					<button class="show-next-btn">NEXT</button>
-				</div>
-				<div id="itk-slider2">
-					<button class="show-prev-btn">PREW</button>
-					<img src="" alt="" srcset="" class="slide-img" id="">
-					<button class="show-next-btn">NEXT</button>
-				</div>
-			</div>
-		</div>
+		</footer>
 	</div>
+
 
 	<!-- ? Тут скрипты -->
 

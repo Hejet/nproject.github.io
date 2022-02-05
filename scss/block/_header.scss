@@ -1,16 +1,19 @@
 header {
 	width: 1170px;
-	margin: 40px auto 0;
+	margin: -10px auto 0;
+	.header {
+		width: 1170px;
+		position: fixed;
+		top: 0;
+		z-index: 9999;
+	}
 }
-.header {
-	width: 1170px;
-	position: fixed;
-	top: 0;
-	z-index: 9999;
-	a{
-		img{
+
+.container-inner {
+	a {
+		img {
 			transition: 1s;
-			&:hover{
+			&:hover {
 				opacity: 0.5;
 				transform: scale(1.05);
 			}
@@ -27,7 +30,7 @@ header {
 	border: #000 2px solid;
 	&:hover {
 		background-color: rgb(98, 67, 148);
-		color:#ffc107;
+		color: #ffc107;
 		border: #18b5a4 2px solid;
 	}
 }
@@ -54,9 +57,9 @@ header {
 	flex-flow: row nowrap;
 	widows: 1000px;
 	background-color: #4c309c;
-	a{
+	a {
 		color: #000;
-	};
+	}
 }
 .icon-params {
 	display: flex;
@@ -69,7 +72,7 @@ header {
 		padding: 5px;
 		color: #fff;
 		&:hover {
-			color:yellow;
+			color: yellow;
 		}
 	}
 	&:hover {
@@ -81,7 +84,7 @@ header {
 }
 li {
 	a {
-		color:white;
+		color: white;
 		text-decoration: none;
 	}
 }
@@ -106,12 +109,12 @@ img {
 	img:nth-child(2n) {
 		padding: 10px;
 	}
-	
-	img{
+
+	img {
 		border: 2px #000 solid;
 		border-radius: 15px;
 		transition: 1s;
-		&:hover{
+		&:hover {
 			transform: scale(1.1);
 			// transition: 1s;
 		}

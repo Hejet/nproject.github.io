@@ -5,58 +5,7 @@
 @import "./block/header";
 @import "./block/calc";
 @import "./block/animation";
+@import "./block/avatarFoto";
 // @import "./block/";
 @import "./block/slider";
 @import "./block/dropdown";
-
-.cities {
-	text-align: center;
-}
-#cities {
-	width: 100px;
-}
-.cities-text {
-	color: #000;
-	font-size: 20px;
-}
-.form-row {
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-}
-input {
-	width: 200px;
-}
-#avatar__wrapper {
-	margin: 50px 0 50px 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-.foto {
-	width: 300px;
-	height: 400px;
-	margin: 0 auto;
-	img {
-		width: 350px;
-	}
-}
-#avatar {
-	margin: 15px;
-	border: orange 5px solid;
-	border-radius: 35px;
-	box-shadow: 0 0 50px rgba($color: #000000, $alpha: 0.5);
-	background-clip: content-box;
-}
-.default-input {
-	border: rgb(31, 17, 233) 5px solid;
-	padding: 5px;
-}
-.error-input {
-	border-color: red;
-	border-radius: 25px;
-	text-align: center;
-	box-shadow: 0 0 50px rgba($color: #000000, $alpha: 0.5);
-}
