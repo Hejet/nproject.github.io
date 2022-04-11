@@ -416,7 +416,6 @@ img.icon-setting {
 
 .container_button {
   text-align: center;
-  height: 50px;
   display: inline;
 }
 
@@ -449,7 +448,11 @@ input {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+#avatar__wrapper .container_button {
+  margin: 6px 5px;
 }
 
 .foto {

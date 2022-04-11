@@ -25,20 +25,20 @@
 // ! Форма заполнения данных, с применением изменения классов
 
 function addErrorClass(elementID) {
-	var fistName = document.getElementById('first-name');
-	var lastName = document.getElementById('lastst-name');
-	var address = document.getElementById('address');
+    var fistName = document.getElementById('first-name');
+    var lastName = document.getElementById('lastst-name');
+    var address = document.getElementById('address');
 }
 
 function addErrorClass(elementId) {
-	var element = document.getElementById(elementId);
-	element.className = 'error-input';
+    var element = document.getElementById(elementId);
+    element.className = 'error-input';
 }
 
 function addErrorClassToAllInputs() {
-	addErrorClass('first-name');
-	addErrorClass('last-name');
-	addErrorClass('address');
+    addErrorClass('first-name');
+    addErrorClass('last-name');
+    addErrorClass('address');
 }
 
 // ! События
@@ -61,43 +61,49 @@ var imageButtonGrmAnja = document.getElementById('button-img-grmAnja');
 var imageButtonDed = document.getElementById('button-img-ded');
 var imageButtonBabaDed = document.getElementById('button-img-babaDed');
 var imageButtonCat = document.getElementById('button-img-cat');
+var imageButtonRandom = document.getElementById('button-img-random');
 
 
 function changeImageButtonVanja() {
-	var imageEl = document.getElementById('avatar');
-	// imageEl.src ='https://scandinews.fi/assets/image-cache/images/2015/4/0/1-0.246.2ee62299.jpg';
-	imageEl.src = './img/foto_01/AveIvan.jpg';
-	imageEl.title = 'Ваня!';
+    var imageEl = document.getElementById('avatar');
+    // imageEl.src ='https://scandinews.fi/assets/image-cache/images/2015/4/0/1-0.246.2ee62299.jpg';
+    imageEl.src = './img/foto_01/AveIvan.jpg';
+    imageEl.title = 'Ваня!';
 }
 function changeImageButtonMama() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = './img/foto_01/mama.jpg';
-	imageEl.title = 'МАМА!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = './img/foto_01/mama.jpg';
+    imageEl.title = 'МАМА!';
 }
 function changeImageButtonPapa() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = './img/foto_01/papa.jpg';
-	imageEl.title = 'ПАПА!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = './img/foto_01/papa.jpg';
+    imageEl.title = 'ПАПА!';
 }
 function changeImageButtonGrmAnja() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = './img/foto_01/grandmotherAnja.jpg';
-	imageEl.title = 'Бабушка Аня!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = './img/foto_01/grandmotherAnja.jpg';
+    imageEl.title = 'Бабушка Аня!';
 }
 function changeImageButtonDed() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = './img/foto_01/Ded.jpg';
-	imageEl.title = 'Дед!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = './img/foto_01/Ded.jpg';
+    imageEl.title = 'Дед!';
 }
 function changeImageButtonBabaDed() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = './img/foto_01/babaDed.jpg';
-	imageEl.title = 'Дед!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = './img/foto_01/babaDed.jpg';
+    imageEl.title = 'Дед!';
 }
 function changeImageButtonCat() {
-	var imageEl = document.getElementById('avatar');
-	imageEl.src = 'https://scandinews.fi/assets/image-cache/images/2015/4/0/1-0.246.2ee62299.jpg';
-	imageEl.title = 'КОТ!';
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = 'https://scandinews.fi/assets/image-cache/images/2015/4/0/1-0.246.2ee62299.jpg';
+    imageEl.title = 'КОТ!';
+}
+function changeImageButtonRandom() {
+    var imageEl = document.getElementById('avatar');
+    imageEl.src = 'https://picsum.photos/640/480';
+    imageEl.title = 'Довільна картинка від генератора!';
 }
 imageButtonVanja.addEventListener('click', changeImageButtonVanja);
 imageButtonMama.addEventListener('click', changeImageButtonMama);
@@ -106,3 +112,4 @@ imageButtonGrmAnja.addEventListener('click', changeImageButtonGrmAnja);
 imageButtonDed.addEventListener('click', changeImageButtonDed);
 imageButtonBabaDed.addEventListener('click', changeImageButtonBabaDed);
 imageButtonCat.addEventListener('click', changeImageButtonCat);
+imageButtonRandom.addEventListener('click', changeImageButtonRandom);
